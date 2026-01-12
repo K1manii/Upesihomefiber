@@ -82,10 +82,9 @@ ul {
 }
 
 .logo-container {
-    display: block;
+    display: flex;
     width: 250px;
     height: 100px;
-    display: flex;
     align-items: center;
 }
 
@@ -408,3 +407,4 @@ footer {
     height: 35px;
     fill: white;
 }
+
