@@ -143,6 +143,25 @@ ul {
     color: white;
 }
 
+
+ .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 100;
+      transition: background 0.3s;
+    }
+    .whatsapp-btn:hover {
+      background: #1ebc57;
+    }
+
 /* Hero Section */
 .hero {
     min-height: 90vh;
@@ -373,38 +392,5 @@ footer {
     .logo-img {
         height: 250px;
     }
-}
-
-/* WhatsApp Floating Button */
-.whatsapp-float {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: #25d366;
-    color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    text-decoration: none;
-}
-
-.whatsapp-float:hover {
-    transform: scale(1.1);
-    background-color: #1ebe57;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
-}
-
-.whatsapp-icon {
-    width: 35px;
-    height: 35px;
-    fill: white;
 }
 
